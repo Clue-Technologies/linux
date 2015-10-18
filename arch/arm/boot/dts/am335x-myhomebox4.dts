@@ -11,8 +11,8 @@
 #include "am335x-myhomebox4-common.dtsi"
 
 / {
-	model = "TI AM335x BeagleBone Black";
-	compatible = "ti,am335x-bone-black", "ti,am335x-bone", "ti,am33xx";
+	model = "TI AM335x ClueTech MYHOMEBOX";
+	compatible = "ti,am335x-myhomebox","ti,am335x-bone-black", "ti,am335x-bone", "ti,am33xx";
 
 	cpus {
 		cpu@0 {
